@@ -1,0 +1,185 @@
+body {
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0px;
+    padding: 0;
+}
+
+main {
+    margin-top: 89px;
+    margin-bottom: 10px;
+}
+
+.navigation {
+    display: flex;
+    background-color: #00274C;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 5px 5px;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 15px 10px;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+}
+
+nav .active {
+    background-color: #FFCB05;
+    border-radius: 10px;
+}
+
+nav .active a{
+    color: #00274C;
+    padding: 1px;
+}
+
+.navigation img {
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.skip a {
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+}
+
+.skip a:focus {
+    top: 20px;
+}
+
+a:focus, a:hover {
+    border: solid 2px #2F65A7;
+}
+
+h1, h2, h3 {
+    color: #00274C;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 1;
+    padding: 50px 15px;
+    text-align: center;
+    background-color: #FFCB05;
+}
+
+h2, h3 {
+    line-height: 1.5;
+    margin: 0px 10px;
+    padding: 10px 0px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.container h3 a:link {
+    color: #00274C;
+}
+
+.container h3 a:visited {
+    color: #702082;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p, li {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+}
+
+figcaption {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: 0px 10px;
+    padding: 5px 0px;
+}
+
+.container a:link {
+    color: #2F65A7;
+}
+
+footer a:link {
+    color: #FFCB05;
+    font-weight: 500;
+}
+
+footer a:visited {
+    color: #CFC096;
+    font-weight: 500;
+}
+
+.container a:visited {
+    color: #702082;
+    font-weight: 500;
+}
+
+.container ul {
+    list-style-type: circle;
+    list-style-position: outside;
+    margin-left: 20px;
+}
+
+.container {
+    display: grid;
+    row-gap: 10px;
+}
+
+.services {
+    background-color: #ECE6D5;
+}
+
+.container img {
+    width: 100%;
+}
+
+.services img {
+    width: 95%;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #00274C;
+    color: #FFFFFF;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+footer p {
+    font-weight: 700;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .skip a {
+      -webkit-transition: none;
+      transition: none;
+    }
+}
