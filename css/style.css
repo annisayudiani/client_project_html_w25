@@ -208,6 +208,7 @@ footer {
 
 footer p {
     font-weight: 700;
+    line-height: 150%;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
