@@ -178,6 +178,12 @@ footer a:visited {
 
 .list-grid a:link {
     color: #00274C;
+    font-weight: 700;
+}
+
+.list-grid a:visited {
+    color: #702082;
+    font-weight: 700;
 }
 
 .services {
