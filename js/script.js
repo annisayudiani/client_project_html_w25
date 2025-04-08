@@ -1,5 +1,7 @@
 // Scroll line animation source code: https://codepen.io/bogdansandu/pen/NWQzyWa
 
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 const scrollLine = document.querySelector('.scroll-line');
 
 function updateScrollProgress() {
